@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Básica com Botões de Redes Sociais</title>
+    <title>Página de compras</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -92,13 +92,23 @@
             font-size: 18px; /* Aumentar o tamanho do texto no rodapé */
         }
     </style>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header>
-        <h1 class="apresentacaoconteudotitulo">Contate-nos!</h1>
-    </header>
+    <header class="cabecario">
+        <nav class="cabecario__links">
+            <a class="cabecario__links__link" href="index.html">
+                <img class="foto__logo" src="./assets/Naganate.png">
+                Home
+            </a>
+            <a class="cabecario__links__link" href="cestascafe.html">
+                Café da manhã
+            </a>
 
+        </nav>
+    </header>
     <main class="apresentacao">
+        <h1 class="apresentacaoconteudotitulo">Contate-nos!</h1>
         <section class="apresentacaoconteudo">
             <img src="./assets/Logo.png" alt="Logo">
         </section>
