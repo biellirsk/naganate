@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Básica com Botões de Redes Sociais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FEC939; /* Cor de fundo amarela */
+            color: #000000; /* Cor do texto preta em todo o corpo */
+        }
+
+        header {
+            background-color: #FEC939; /* Cor amarela no header */
+            padding: 30px;
+            text-align: center;
+        }
+
+        .apresentacao {
+            display: flex;
+            flex-direction: column; /* Garante que os itens sejam dispostos na vertical (em uma fileira) */
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .apresentacaoconteudo {
+            margin-bottom: 30px;
+        }
+
+        .apresentacaoconteudo img {
+            width: 350px; /* Aumentar a largura da imagem */
+            height: auto;
+            margin-bottom: 30px; /* Espaçamento maior entre a imagem e o texto */
+        }
+
+        .apresentacaoconteudotitulo {
+            font-size: 36px; /* Aumentar o tamanho do título */
+            color: #000000; /* Título em preto */
+        }
+
+        .apresentacaoconteudotexto,
+        p {
+            font-size: 24px; /* Aumentar o tamanho dos textos e parágrafos */
+            color: #000000; /* Cor preta para todos os textos e parágrafos */
+            margin: 15px 0;
+        }
+
+        h2 {
+            font-size: 48px; /* Aumentando o tamanho da fonte para 48px */
+            color: #000000; /* Cor preta para o título */
+            margin-bottom: 20px; /* Adicionando um pouco de espaço abaixo do título */
+            margin-top: -20px; /* Movendo o título para cima */
+        }
+
+        .btn-instagram,
+        .btn-whatsapp {
+            background-color: #FEC939; /* Cor de fundo amarela no botão (mesma do fundo da página) */
+            color: #000000; /* Cor do texto no botão preta */
+            padding: 18px 30px; /* Aumentar o padding do botão */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px; /* Bordas mais arredondadas */
+            font-size: 22px; /* Aumentar o tamanho da fonte do botão */
+            display: inline-block;
+            margin: 10px 0; /* Margem entre os botões para garantir espaçamento */
+            border: 2px solid #000000; /* Adicionando uma borda preta de 2px */
+            transition: background-color 0.3s;
+        }
+
+        .btn-instagram:hover,
+        .btn-whatsapp:hover {
+            background-color: #000000; /* Cor de fundo preta ao passar o mouse */
+            color: white; /* Cor do texto branca no hover */
+            border-color: #000000; /* A borda também ficará preta no hover */
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #FAA300; /* Cor amarela no rodapé alterada para #FAA300 */
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 18px; /* Aumentar o tamanho do texto no rodapé */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="apresentacaoconteudotitulo">Contate-nos!</h1>
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacaoconteudo">
+            <img src="./assets/Logo.png" alt="Logo">
+        </section>
+
+        <section>
+            <h2>Peça já! </h2>
+            <p class="apresentacaoconteudo__texto">Clique nos botões abaixo para acessar nossas redes sociais e falar conosco!</p>
+
+            <!-- Botão de WhatsApp -->
+            <a href="https://wa.me/+5511985234008" class="btn-whatsapp" target="_blank">Ir para o WhatsApp</a>
+
+            <!-- Botão de Instagram -->
+            <a href="https://www.instagram.com/naganate?igsh=enUwd2ZyczNrYjd2" class="btn-instagram" target="_blank">Ir para o Instagram</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Feito com amor ♥.</p>
+    </footer>
+</body>
+</html>
