@@ -18,8 +18,13 @@
 }
 
 .foto__logo {
-    width: 50%;
-    height: 80%;
+    width: 20%;
+    height: 100%;
+}
+
+.foto__instagram {
+    width: 12%;
+    height: 15%;
 }
 
 .cabecario__links {
@@ -102,6 +107,7 @@ body {
     color: var(--cor-secundaria);
     font-family: 'Montserrat', serif;
     font-weight: 600;
+    align-items: center;
 }
 
 .apresentacao__conteudo__links__link:hover {
