@@ -31,3 +31,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
+
+.apresentacao__conteudo__subtitulo__cor {
+    color: var(--cor-texto);
+}

@@ -6,6 +6,7 @@
     --cor-secundaria: #000000;
     --cor-terciaria: #DAF5FF;
     --cor-preco: #84A98C;
+    --cor-texto: #2F3E46;
 }
 
 * {
@@ -18,11 +19,6 @@
     padding: 2% 0% 0% 10%;
 }
 
-
-.foto__instagram {
-    width: 12%;
-    height: 15%;
-}
 
 .cabecario__links {
     display: flex;
@@ -105,6 +101,11 @@ body {
     font-family: 'Montserrat', serif;
     font-weight: 600;
     align-items: center;
+}
+
+.foto__instagram {
+    width: 12%;
+    height: 15%;
 }
 
 .apresentacao__conteudo__links__link:hover {
