@@ -5,6 +5,7 @@
     --cor-primaria: #fffac8;
     --cor-secundaria: #000000;
     --cor-terciaria: #DAF5FF;
+    --cor-preco: #84A98C;
 }
 
 * {
@@ -17,9 +18,6 @@
     padding: 2% 0% 0% 10%;
 }
 
-.foto__logo {
-
-}
 
 .foto__instagram {
     width: 12%;
@@ -127,3 +125,4 @@ body {
 .texto__destaque {
     color: var(--cor-secundaria);
 }
+
