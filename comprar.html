@@ -9,12 +9,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #FEC939; /* Cor de fundo amarela */
+            background-color: #FFFAC8; /* Cor de fundo alterada para #FFFAC8 */
             color: #000000; /* Cor do texto preta em todo o corpo */
         }
 
         header {
-            background-color: #FEC939; /* Cor amarela no header */
+            background-color: #FFFAC8; /* Cor amarela no header alterada para #FFFAC8 */
             padding: 30px;
             text-align: center;
         }
@@ -36,6 +36,7 @@
             width: 350px; /* Aumentar a largura da imagem */
             height: auto;
             margin-bottom: 30px; /* Espaçamento maior entre a imagem e o texto */
+            filter: sepia(1) saturate(5) hue-rotate(10deg); /* Ajuste no filtro para atingir o tom desejado */
         }
 
         .apresentacaoconteudotitulo {
@@ -59,7 +60,7 @@
 
         .btn-instagram,
         .btn-whatsapp {
-            background-color: #FEC939; /* Cor de fundo amarela no botão (mesma do fundo da página) */
+            background-color: #FFFAC8; /* Cor de fundo amarela no botão (mesma do fundo da página) */
             color: #000000; /* Cor do texto no botão preta */
             padding: 18px 30px; /* Aumentar o padding do botão */
             text-align: center;
@@ -74,19 +75,19 @@
 
         .btn-instagram:hover,
         .btn-whatsapp:hover {
-            background-color: #000000; /* Cor de fundo preta ao passar o mouse */
-            color: white; /* Cor do texto branca no hover */
+            background-color: #DAF5FF; /* Cor de fundo preta ao passar o mouse */
+            color: black; /* Cor do texto branca no hover */
             border-color: #000000; /* A borda também ficará preta no hover */
         }
 
         footer {
-            text-align: center;
-            padding: 15px;
-            background-color: #FAA300; /* Cor amarela no rodapé alterada para #FAA300 */
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
+    text-align: center;
+    padding: 15px;
+    background-color: #DAF5FF; /* Alterado para a cor #DAF5FF */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
         footer p {
             font-size: 18px; /* Aumentar o tamanho do texto no rodapé */
@@ -106,7 +107,6 @@
             <a class="cabecario__links__link" href="comprar.html">
                 Comprar
             </a>
-
         </nav>
     </header>
     <main class="apresentacao">
@@ -128,7 +128,7 @@
     </main>
 
     <footer>
-        <p>&copy; Feito com amor ♥.</p>
+        <p>Feito com amor ♥.</p>
     </footer>
 </body>
 </html>

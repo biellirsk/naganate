@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cestas Petiscos!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Alinha tudo no centro horizontalmente */
+            justify-content: center; /* Alinha tudo no centro verticalmente */
+            height: 100vh; /* Ocupa 100% da altura da janela */
+            text-align: center; /* Alinha o texto no centro */
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .cabecario__links {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .cabecario__links__link {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .cabecario__links__link:hover {
+            text-decoration: underline;
+        }
+
+        .apresentacao {
+            width: 80%; /* Define a largura do conteúdo */
+            max-width: 900px; /* Garante que o conteúdo não fique muito largo */
+            margin-top: 30px;
+        }
+
+        .apresentacao__conteudo__titulo {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .apresentacao__conteudo h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="cabecario">
+        <nav class="cabecario__links">
+            <a class="cabecario__links__link" href="index.html">Home</a>
+            <a class="cabecario__links__link" href="cestascafe.html">Café da manhã</a>
+            <a class="cabecario__links__link" href="comprar.html">Comprar</a>
+        </nav>
+        <h1 class="apresentacao__conteudo__titulo">Petiscos</h1>
+    </header>
+    
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h2 class="apresentacaoconteudo__titulo">Confira todas as variedades!</h2>
+            <p class="apresentacaoconteudo__texto">Veja as variedades e preços abaixo!</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p class="rodape"><strong class="texto__destaque">Feito com amor ♥</strong></p>
+    </footer>
+
+</body>
+</html>
