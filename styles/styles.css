@@ -4,7 +4,7 @@
 :root {
     --cor-primaria: #fffac8;
     --cor-secundaria: #000000;
-    --cor-terciaria: #FAA300;
+    --cor-terciaria: #DAF5FF;
 }
 
 * {
@@ -18,8 +18,7 @@
 }
 
 .foto__logo {
-    width: 20%;
-    height: 100%;
+
 }
 
 .foto__instagram {
