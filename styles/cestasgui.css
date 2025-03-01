@@ -15,11 +15,11 @@ body {
 }
 
 .apresentacao__conteudo__texto__descricao {
-    font-size: 12px; /* Texto de descrição */
+    font-size: 24px; /* Texto de descrição */
 }
 
 .cabecario__links__link {
-    font-size: 12px; /* Tamanho do texto dos links */
+    font-size: 24px; /* Tamanho do texto dos links */
 }
 
 /* Rodapé */
@@ -33,4 +33,17 @@ footer {
 
 .texto__destaque {
     font-weight: bold;
+}
+
+.cabecario__links {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecario__links__link {
+    font-family: 'Montserrat', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+    text-decoration: none;
 }
