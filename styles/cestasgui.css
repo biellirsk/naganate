@@ -7,11 +7,11 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 24px; /* Tamanho do título */
+    font-size: 36px; /* Tamanho do título */
 }
 
 .apresentacao__conteudo__subtitulo {
-    font-size: 18px; /* Tamanho do subtítulo */
+    font-size: 26px; /* Tamanho do subtítulo */
 }
 
 .apresentacao__conteudo__texto__descricao {
