@@ -1,25 +1,34 @@
 body {
     font-size: 14px; /* Tamanho base da fonte */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garantir que a página ocupe toda a altura da tela */
+    margin: 0;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 24px; /* Menor título */
+    font-size: 24px; /* Tamanho do título */
 }
 
 .apresentacao__conteudo__subtitulo {
-    font-size: 18px; /* Menor subtítulo */
+    font-size: 18px; /* Tamanho do subtítulo */
 }
 
 .apresentacao__conteudo__texto__descricao {
-    font-size: 12px; /* Texto de descrição menor */
+    font-size: 12px; /* Texto de descrição */
 }
 
 .cabecario__links__link {
-    font-size: 12px; /* Links do menu com fonte menor */
+    font-size: 12px; /* Tamanho do texto dos links */
 }
 
-.rodape {
-    font-size: 10px; /* Rodapé com fonte ainda menor */
+/* Rodapé */
+footer {
+    margin-top: auto; /* Faz com que o rodapé vá para o final da página */
+    text-align: center; /* Centraliza o texto */
+    font-size: 8px; /* Tamanho da fonte reduzido */
+    padding: 5px; /* Menos espaçamento */
+    background-color: #f1f1f1; /* Cor de fundo do rodapé */
 }
 
 .texto__destaque {
