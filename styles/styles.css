@@ -7,6 +7,7 @@
     --cor-terciaria: #DAF5FF;
     --cor-preco: #84A98C;
     --cor-texto: #2F3E46;
+    --cor-divisoria: #CFFCFF;
 }
 
 * {
@@ -56,6 +57,8 @@ body {
     flex-direction: column;
     gap: 40px
 }
+
+
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
