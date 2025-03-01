@@ -1,0 +1,27 @@
+body {
+    font-size: 14px; /* Tamanho base da fonte */
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 24px; /* Menor título */
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-size: 18px; /* Menor subtítulo */
+}
+
+.apresentacao__conteudo__texto__descricao {
+    font-size: 12px; /* Texto de descrição menor */
+}
+
+.cabecario__links__link {
+    font-size: 12px; /* Links do menu com fonte menor */
+}
+
+.rodape {
+    font-size: 10px; /* Rodapé com fonte ainda menor */
+}
+
+.texto__destaque {
+    font-weight: bold;
+}
