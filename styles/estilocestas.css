@@ -7,6 +7,7 @@
     --cor-preco: #84A98C;
     --cor-texto: #2F3E46;
     --cor-divisoria: #B6EEA6;
+    --cor-namorados: #E6454E;
 }
 
 .fotos__cestas {
@@ -44,6 +45,10 @@
     gap: 24px;
 }
 
+.apresentacao__conteudo__cesta1__titulo__eventos {
+    color: var(--cor-namorados);
+}
+
 .apresentacao__conteudo__cesta2 {
 
     padding: 0% 10%;
@@ -59,7 +64,11 @@
 }
 
 
-
+.apresentacao__conteudo__texto__preco__namorados {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-namorados);
+}
 
 .apresentacao__conteudo__texto__preco {
     font-size: 24px;
