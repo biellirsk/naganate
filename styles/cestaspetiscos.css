@@ -24,18 +24,18 @@ header {
     width: 100%;
 }
 
-.cabecario__links {
+.cabecalho__links {
     text-align: center;
     margin-top: 10px;
 }
 
-.cabecario__links__link {
+.cabecalho__links__link {
     margin: 0 15px;
     color: white;
     text-decoration: none;
 }
 
-.cabecario__links__link:hover {
+.cabecalho__links__link:hover {
     text-decoration: underline;
 }
 

@@ -16,17 +16,17 @@
 }
 
 
-.cabecario {
+.cabecalho {
     padding: 2% 0% 0% 10%;
 }
 
 
-.cabecario__links {
+.cabecalho__links {
     display: flex;
     gap: 80px;
 }
 
-.cabecario__links__link {
+.cabecalho__links__link {
     font-family: 'Montserrat', serif;
     font-size: 24px;
     font-weight: 600;

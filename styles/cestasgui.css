@@ -18,7 +18,7 @@ body {
     font-size: 24px; /* Texto de descrição */
 }
 
-.cabecario__links__link {
+.cabecalho__links__link {
     font-size: 24px; /* Tamanho do texto dos links */
 }
 
@@ -35,12 +35,12 @@ footer {
     font-weight: bold;
 }
 
-.cabecario__links {
+.cabecalho__links {
     display: flex;
     gap: 80px;
 }
 
-.cabecario__links__link {
+.cabecalho__links__link {
     font-family: 'Montserrat', serif;
     font-size: 24px;
     font-weight: 600;
