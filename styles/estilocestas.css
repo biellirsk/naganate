@@ -8,6 +8,8 @@
     --cor-texto: #2F3E46;
     --cor-divisoria: #B6EEA6;
     --cor-namorados: #E6454E;
+    --cor-pais: #0D3B66;
+    --cor-maes: #FF958C;
 }
 
 .fotos__cestas {
@@ -49,6 +51,16 @@
     color: var(--cor-namorados);
 }
 
+.apresentacao__conteudo__cesta1__titulo__pais {
+    color: var(--cor-pais);
+}
+
+.apresentacao__conteudo__cesta1__titulo__maes {
+    color: var(--cor-maes);
+}
+
+
+
 .apresentacao__conteudo__cesta2 {
 
     padding: 0% 10%;
@@ -68,6 +80,16 @@
     font-size: 24px;
     font-family: 'Krona One', sans-serif;
     color: var(--cor-namorados);
+}
+
+.apresentacao__conteudo__texto__preco__pais {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-pais);
+}
+
+.apresentacao__conteudo__texto__preco__maes {
+
 }
 
 .apresentacao__conteudo__texto__preco {
