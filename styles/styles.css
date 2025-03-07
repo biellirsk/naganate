@@ -8,6 +8,7 @@
     --cor-preco: #84A98C;
     --cor-texto: #2F3E46;
     --cor-divisoria: #CFFCFF;
+    --cor-combo: #F5F0B8;
 }
 
 * {
@@ -34,7 +35,37 @@
     text-decoration: none;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--cor-combo);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: var(--cor-texto);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat', serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--cor-terciaria);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
 body {

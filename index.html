@@ -5,51 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Naganate Cestas</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/estilocestas.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__links">
-            <a class="cabecalho__links__link" href="index.html">
-                Home
-            </a>
-            <a class="cabecalho__links__link" href="cestascafe.html">
-                Café da manhã
-            </a>
-            <a class="cabecalho__links__link" href="cestaspetiscos.html">
-                Petiscos
-            </a>
-            <a class="cabecalho__links__link" href="bebidas.html">
-                Bebidas
-            </a>
-            <a class="cabecalho__links__link" href="eventos.html">
-                Eventos
-            </a>
-            <a class="cabecalho__links__link" href="guloseimas.html">
-                Guloseimas
-            </a>
-            <a class="cabecalho__links__link" href="comprar.html">
-                Comprar
-            </a>
-
-
-
+    <header class="cabecario">
+        <nav class="cabecario__links">
+            <a class="cabecario__links__link" href="index.html">Home</a>
+            <a class="cabecario__links__link" href="cestascafe.html">Café da manhã</a>
+            <a class="cabecario__links__link" href="cestaspetiscos.html">Petiscos</a>
+            <a class="cabecario__links__link" href="bebidas.html">Bebidas</a>
+            <div class="dropdown">
+                <a class="cabecario__links__link" href="#">Eventos ▼</a>
+                <div class="dropdown-content">
+                    <a href="eventos.html#namorados">Dia dos Namorados</a>
+                    <a href="eventos.html#pascoa">Páscoa</a>
+                    <a href="eventos.html#natal">Natal</a>
+                </div>
+            </div>
+            <a class="cabecario__links__link" href="comprar.html">Comprar</a>
         </nav>
     </header>
+    
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Naganate Cestas</h1>
             <p class="apresentacao__conteudo__texto">Aqui você encontra variedades de cestas, para presentear seu amado, seus colegas, seus parentes, quem você desejar!!</p>
             <p class="apresentacao__conteudo__texto">Temos cestas personalizadas, cestas de café da manhã, cestas de dia das crianças, cestas de guloseimas e muito mais.</p>
+            
             <div class="apresentacao__conteudo__links">
                 <h2 class="apresentacao__conteudo__subtitulo">Acesse o Instagram da loja!!</h2>
                 <a class="apresentacao__conteudo__links__link" href="https://www.instagram.com/naganate?igsh=enUwd2ZyczNrYjd2">
-                    <img class="foto__instagram" src="./assets/download.png">
+                    <img class="foto__instagram" src="./assets/download.png" alt="Instagram da loja">
                     Instagram
                 </a>
             </div>
         </section>
-        <img class="foto__logo" src="./assets/Logo.png">
+        <img class="foto__logo" src="./assets/Logo.png" alt="Logo da loja">
     </main>
+    
     <footer class="rodape"><strong class="texto__destaque">Feito com amor ♥</strong></footer>
 </body>
 </html>
+
+git config --global user.name "Fabio"
+git config --global user.email "fabio@iacwave.com.br"
