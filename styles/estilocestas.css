@@ -10,6 +10,8 @@
     --cor-namorados: #E6454E;
     --cor-pais: #0D3B66;
     --cor-maes: #FF958C;
+    --cor-criancas: #5995ED;
+    --cor-natal: #FF0004;
 }
 
 .fotos__cestas {
@@ -59,6 +61,14 @@
     color: var(--cor-maes);
 }
 
+.apresentacao__conteudo__cesta1__titulo__criancas {
+    color: var(--cor-criancas);
+}
+
+.apresentacao__conteudo__cesta1__titulo__natal {
+    color: var(--cor-natal);
+}
+
 
 
 .apresentacao__conteudo__cesta2 {
@@ -89,7 +99,21 @@
 }
 
 .apresentacao__conteudo__texto__preco__maes {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-maes);
+}
 
+.apresentacao__conteudo__texto__preco__criancas {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-criancas);
+}
+
+.apresentacao__conteudo__texto__preco__natal {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-natal);
 }
 
 .apresentacao__conteudo__texto__preco {
