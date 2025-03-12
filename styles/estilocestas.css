@@ -12,6 +12,7 @@
     --cor-maes: #FF958C;
     --cor-criancas: #5995ED;
     --cor-natal: #FF0004;
+    --cor-anonovo: #9D9A79;
 }
 
 .fotos__cestas {
@@ -69,6 +70,10 @@
     color: var(--cor-natal);
 }
 
+.apresentacao__conteudo__cesta1__titulo__anonovo {
+    color: var(--cor-anonovo);
+}
+
 
 
 .apresentacao__conteudo__cesta2 {
@@ -114,6 +119,12 @@
     font-size: 24px;
     font-family: 'Krona One', sans-serif;
     color: var(--cor-natal);
+}
+
+.apresentacao__conteudo__texto__preco__anonovo {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-anonovo);
 }
 
 .apresentacao__conteudo__texto__preco {
